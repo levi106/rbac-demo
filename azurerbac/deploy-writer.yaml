@@ -1,0 +1,14 @@
+{
+ "Name": "AKS Deployment Writer",
+ "Description": "Lets you view all deployments in cluster/namespace.",
+ "Actions": [],
+ "NotActions": [],
+ "DataActions": [
+   "Microsoft.ContainerService/managedClusters/apps/deployments/write",
+   "Microsoft.ContainerService/managedClusters/apps/deployments/read"
+ ],
+ "NotDataActions": [],
+ "assignableScopes": [
+   "/subscriptions/95e8938e-6ef3-4d1c-bd2c-084c3bb9c343"
+ ]
+}
